@@ -13,7 +13,6 @@ typedef long long ll;
 typedef unsigned int ui;
 #define elif else if
 #define pb push_back
-#define pop_back pop
 #define vs vector<str>
 #define vl vector<ll>
 #define vi vector<int>
