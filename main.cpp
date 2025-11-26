@@ -206,8 +206,8 @@ void generateComparisonTable(const vector<str>& keys) {
         cout << setw(15) << "mad" 
              << setw(10) << a 
              << setw(18) << ht.getCollisionCount()
-             << setw(18) << fixed << setprecision(3) << avgChainLen
-             << setw(15) << fixed << setprecision(3) << loadFactor << endl;
+             << setw(18) << fixed << setprecision(5) << avgChainLen
+             << setw(15) << fixed << setprecision(5) << loadFactor << endl;
     }
 }
 
